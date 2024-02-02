@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'ABeeZee';
+    src: url(../fonts/ABeeZee/ABeeZee-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Saira';
+    src: url(../fonts/Saira/static/Saira-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.image-container {
+    width: 55%;
+    background-image: url(../images/main_pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.registration {
+    width: 45%;
+    background-color: #FAF6F6;
+}
+
+.logo {
+    width: 123px;
+    height: 109px;
+}
+
+.description {
+    display: flex;
+    width: 749px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.description h2 {
+    color: #1F2F58;
+    font-family: Saira;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.location {
+    display: flex;
+    height: 21px;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.location span {
+    color: #1F2F58;
+    font-family: Saira;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.location i {
+    width: 14px;
+    height: 20px;
+    color: #1F2F58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stores {
+    width: 44%;
+    position: fixed;
+    bottom: 0;
+    right: 46%;
+    display: flex;
+    justify-content: right;
+    padding: 20px 40px;
+}
+
+.apps {
+    display: flex;
+    column-gap: 10px;
+}
+
+.app-store {
+    width: 180px;
+}
+
+.google-play {
+    width: 143.459px;
+}
+
+.app-store,
+.google-play {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 180px;
+    height: 41.989px;
+    background-color: black;
+    color: #FFF;
+}
+
+.app-store p,
+.google-play p {
+    width: 90.092px;
+    height: 17.878px;
+}
+
+.app-store span,
+.google-play span {
+    width: 143.459px;
+    height: 41.989px;
+    font-size: 12px;
+}
+
+.app-store i,
+.google-play i {
+    font-size: 30px;
+}
+
+.form-container {
+    width: 486px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.registration h2 {
+    color: #1F2F58;
+    font-family: Saira;
+    font-size: 137px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.registration form .input-content,
+.change_password form .input-content {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    padding: 12px 64px 12px 32px;
+    align-items: center;
+    border-radius: 40px;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: 9px 11px 232px 0px rgba(0, 0, 0, 0.25);
+}
+
+.registration form .input-content input,
+.change_password form .input-content input {
+    width: 390px;
+    color: rgba(0, 0, 0, 0.64);
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.registration .sites {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration .sites .google-container,
+.registration .sites .facebook-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
+.registration .sites .google-container {
+    width: 180px;
+    background-color: #FFF;
+}
+
+.registration .sites .facebook-container {
+    width: 235px;
+    background-color: #000;
+}
+
+.registration .sites .google-container span {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.registration .sites .google-container span,
+.registration .sites .google-container i {
+    color: #757575;
+}
+
+.registration .sites .facebook-container span {
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+}
+
+.registration .sites .facebook-container span,
+.registration .sites .facebook-container i {
+    color: #FFF;
+}
+
+.a-content {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+form .a-content .input-content {
+    display: flex;
+    width: 216px;
+    height: 64px;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-content .input-content a {
+    text-align: center;
+    font-size: 36px;
+    font-family: ABeeZee;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.a-content>a,
+form>a {
+    color: #008FE0;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+form>a {
+    font-size: 24px;
+}
+
+.registration .footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: rgba(0, 0, 0, 0.29);
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.registration .footer span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+}
